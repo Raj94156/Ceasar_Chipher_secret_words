@@ -26,7 +26,7 @@ while not should_end:
 
   caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
-  restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
+  restart = input("Type 'yes' if you want to countinue. Otherwise type 'no' to quit.\n")
   if restart == "no":
     should_end = True
-    print("Goodbye")
+    print("See you again")
